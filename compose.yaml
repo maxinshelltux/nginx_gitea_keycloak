@@ -17,8 +17,7 @@ services:
     environment:
       - USER_UID=1000
       - USER_GID=1000
-      - ROOT_URL=https://dava/apps/gitea/
-      - DOMAIN=dava
+      - ROOT_URI=https://dava/apps/gitea/
     restart: always
     volumes:
       - ./gitea:/data
